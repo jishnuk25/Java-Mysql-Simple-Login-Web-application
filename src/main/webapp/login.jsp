@@ -17,6 +17,6 @@
 		} 
 	else 
 		{ 
-			out.println("Invalid password <a href='index.jsp'>try again</a>"); 
+			out.println("Invalid password <a href='index.jsp'>retry again</a>"); 
 } 
 %>
