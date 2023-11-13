@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  name: aks_agent_pool
-
+#   name: aks_agent_pool
+    vmImage: ubuntu-latest
 steps:
 - task: Maven@3
   inputs:
